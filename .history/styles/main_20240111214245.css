@@ -1,0 +1,183 @@
+
+
+.container{
+    max-width: 1078px;
+    margin: 0 auto;
+}
+header{
+    background: var(--blue);
+}
+nav{
+    background: var(--darkBlue);
+}
+header > div{
+    display: flex;
+    align-items: center;
+    padding: 21px 0 16px 0;
+}
+header a:hover{
+    color: var(--yellow);
+}
+.header__logo span{
+    font:700 28px var(--fontPT);
+    color: #fff;
+}
+.phone__number{
+    margin: 0 86px;
+    font: 19px var(--fontPT);
+    color: #fff;
+}
+.search__items{
+    border-bottom: 1px solid #517DAE;
+    max-width: 281px;
+    width: 100%;
+}
+.search__items button{
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+.search__items input{
+    font: 16px var(--fontPT);
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    color: #fff;
+}
+.search__items input::placeholder{
+    color: #fff;
+}
+.delivery{
+    margin: 0 0 0 auto;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+
+.mobile__cart{
+    display: none;
+}
+
+
+nav ul{
+    display: flex;
+    color: #fff;
+    padding: 13px 0 12px 0;
+}
+nav li{
+    margin: 0 39px 0 0;
+    font: 700 16px var(--fontPT);
+}
+.desc__cart{
+    margin: 0 0 0 auto;
+    font-weight: 400;
+}
+.desc__cart a{
+    display: flex;
+    align-items: center;
+}
+.desc__cart svg{
+    margin: 0 9px 0 0 ;
+}
+
+
+/*Filter*/
+.filter-title{
+    padding: 25px 0 23px 0;
+    display: flex;
+    align-items: start;
+}
+.filter-title p{
+    color: #484848;
+    font: 16px var(--fontPT);
+}
+.price__filter{
+    display: flex;
+    align-items: center;
+
+}
+
+.filter{
+    font: 16px var(--fontPT);
+    color: #484848;
+    cursor: pointer;
+    max-width: 264px;
+    width: 100%;
+    outline: 0;
+    border: 1px solid #D0D0D0;
+    overflow: hidden;
+    position: relative;
+}
+
+#brand__filter{
+    margin: 0 24px 0 14px;
+}
+.display{
+    padding: 14px 0 12px 0;
+    border-bottom: 1px solid transparent;
+    margin: 0 17px;
+    position: relative;
+}
+.display::after{
+    content: '';
+    width: 13px;
+    height: 12px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13' height='12' viewBox='0 0 13 12' fill='none'%3E%3Cpath d='M6.5 9L11.2631 3.75H1.73686L6.5 9Z' fill='%23666666'/%3E%3C/svg%3E");
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all .3s ease-in-out;
+}
+
+.list{
+    display: none;
+    margin: 7px 0;
+}
+.list p{
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    padding: 7px 17px;
+}
+.list p:hover{
+    background: #E8EEFF;
+}
+.active__list{
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.15);
+}
+.active__list .list{
+    display: block;
+}
+.active__list .display{
+    border-color: #D0D0D0;
+}
+
+.active__list .display::after{
+    transform: translateY(-50%) rotate(180deg);
+}
+
+
+.price__filter{
+}
+.price__from, .price__to{
+    display: flex;
+}
+
+.price__values{
+    display: flex;
+    border: 1px solid #D0D0D0;
+    padding: 14px 0 13px 0;
+    max-width: 265px;
+    width: 100%;
+
+}
+.price__values input{
+    border: 0;
+    text-align: right;
+}
+.price__values p{
+    margin: 0 14px 0 12px;
+}

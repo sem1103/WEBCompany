@@ -1,0 +1,33 @@
+
+
+.container{
+    max-width: 1078px;
+    margin: 0 auto;
+}
+header{
+    background: var(--blue);
+}
+nav{
+    background: var(--darkBlue);
+}
+header > div{
+    display: flex;
+    align-items: center;
+}
+.header__logo span{
+    font:700 28px var(--fontPT);
+    color: #fff;
+}
+.phone__number{
+    margin: 0 86px;
+    font: 19px var(--fontPT);
+    color: #fff;
+}
+.delivery{
+    margin: 0 0 0 auto;
+}
+
+
+.mobile__cart{
+    display: none;
+}

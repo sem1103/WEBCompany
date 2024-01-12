@@ -1,0 +1,23 @@
+
+:root{
+   --blue: #265C9A;
+   --darkBlue: #1F497B;
+}
+.container{
+    max-width: 1078px;
+    margin: 0 auto;
+}
+header{
+    background: var(--blue);
+}
+nav{
+    background: var(--darkBlue);
+}
+.header__logo span{
+    font: 28px 'PT Sans';
+}
+
+
+.mobile__cart{
+    display: none;
+}

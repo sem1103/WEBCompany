@@ -1,0 +1,61 @@
+
+
+.container{
+    max-width: 1078px;
+    margin: 0 auto;
+}
+header{
+    background: var(--blue);
+}
+nav{
+    background: var(--darkBlue);
+}
+header > div{
+    display: flex;
+    align-items: center;
+    padding: 21px 0 16px 0;
+}
+header a:hover{
+    color: var(--yellow);
+}
+.header__logo span{
+    font:700 28px var(--fontPT);
+    color: #fff;
+}
+.phone__number{
+    margin: 0 86px;
+    font: 19px var(--fontPT);
+    color: #fff;
+}
+.search__items{
+    border-bottom: 1px solid #517DAE;
+    max-width: 281px;
+    width: 100%;
+}
+.search__items button{
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+.search__items input{
+    font: 16px var(--fontPT);
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    color: #fff;
+}
+.search__items input::placeholder{
+    color: #fff;
+}
+.delivery{
+    margin: 0 0 0 auto;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+
+.mobile__cart{
+    display: none;
+}
